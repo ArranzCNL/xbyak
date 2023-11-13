@@ -142,6 +142,7 @@
 	#pragma warning(disable : 4786) /* identifier is too long */
 	#pragma warning(disable : 4503) /* name is too long */
 	#pragma warning(disable : 4127) /* constant expresison */
+	#pragma warning(disable : 4702) /* unreachable code */
 #endif
 
 // disable -Warray-bounds because it may be a bug of gcc. https://gcc.gnu.org/bugzilla/show_bug.cgi?id=104603
